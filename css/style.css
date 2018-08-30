@@ -340,6 +340,7 @@ input::placeholder{
 	position: relative;
     border-radius: 5px;
     overflow: hidden;
+    border: none;
     width: 90%;
 }
 
@@ -717,7 +718,7 @@ input::placeholder{
 	}
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 700px){
 	.about-main__img img, .about-main__img-doctor {
 	    display: none;
 	}
@@ -755,6 +756,12 @@ input::placeholder{
 	.title-main, .question-title__main, .about-main__info-heading, .advantages__heading h4{
 		font-size: 40px;
 	}
+
+	
+	.title-secondary {
+    	text-align: center;
+    }
+
 
 	.header {
 	    justify-content: center;
@@ -825,12 +832,17 @@ input::placeholder{
 
 @media screen and (max-width: 320px){
 
+	.wrapper{
+		padding: 0 10px;
+	}
+
 	.wrapper-head__main-right {
 		margin: 0;
 	}
 
 	.form{
 		width: 300px;
+		margin-bottom: 30px;
 	}
 
 	.about-main__info-heading, .title-main, .question-title__main, .about-main__info-heading, .advantages__heading h4{

@@ -9,6 +9,22 @@ body{
 	font-family: 'PT Sans', 'Arial', sans-serif;
 }
 
+
+input::-webkit-input-placeholder{
+	color: #929292;
+	font-size: 14px;
+}
+
+input:-ms-input-placeholder{
+	color: #929292;
+	font-size: 14px;
+}
+
+input::-ms-input-placeholder{
+	color: #929292;
+	font-size: 14px;
+}
+
 input::placeholder{
 	color: #929292;
 	font-size: 14px;
@@ -30,7 +46,6 @@ input::placeholder{
 	display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    /*flex-wrap: wrap;*/
 }
 
 
@@ -55,7 +70,6 @@ input::placeholder{
 /* ----- section header ----- */
 
 .head{
-	/*max-width: 988px;*/
 	background: url("../img/nav-bg.png") no-repeat center top;
 	padding-top: 24px;
 }
@@ -152,7 +166,8 @@ input::placeholder{
 	position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 	color: #000;
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 50px;
@@ -162,7 +177,8 @@ input::placeholder{
 .separator{
 	position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
 	width: 46px;
 	height: 2px;
 	background-color: rgba(0, 0, 0, 0.2);
@@ -221,7 +237,8 @@ input::placeholder{
 	position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 
 .properties__item-text{
@@ -331,7 +348,8 @@ input::placeholder{
 .form-field__btn-arrow{
 	position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
     left: 10%;
     z-index: 999;
 }
@@ -456,7 +474,8 @@ input::placeholder{
 	position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     z-index: 2;
 }
 
@@ -557,7 +576,6 @@ input::placeholder{
 /* ----- section advantages ----- */
 
 .advantages{
-	/*max-width: 1040px;*/
 	margin: 20px auto;
 }
 
@@ -757,7 +775,7 @@ input::placeholder{
 		font-size: 40px;
 	}
 
-	
+
 	.title-secondary {
     	text-align: center;
     }

@@ -1,0 +1,1315 @@
+header {
+    background: url('../img/fon_mobile_kyiv.jpg') center top no-repeat;
+    background-size: 100%;
+}
+
+h1, h2 {
+    color: #000;
+    padding: 10px 0;
+    text-align: center
+}
+
+img, li, ul {
+    display: block
+}
+
+.header-menu, h1, h2 {
+    text-align: center
+}
+
+#video-bg, .timer-block {
+    overflow: hidden
+}
+
+.advantages-ul, .header-menu-ul, .header-menu-ul-button, .header-ul, .housing-exchange-ul {
+    list-style: none
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #121212
+}
+
+li, ul {
+    margin: 0;
+    padding: 1px
+}
+
+h1 {
+    font-size: 36px
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 800
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Open Sans", sans-serif
+}
+
+img {
+    border: none
+}
+
+.header-menu {
+    background: rgba(100, 100, 100, 1);
+    height: 100px;
+    top: -80px;
+    transition: top 1s;
+    z-index: 99;
+    display: none
+}
+
+.header-menu.fixed {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, .75)
+}
+
+.header.fixed ~ .wrap {
+    margin-top: 80px
+}
+
+.menu-logo-padding {
+    padding: 10px 0 0
+}
+
+.header-menu-logo {
+    width: 100%
+}
+
+#header-menu-li-padding {
+    padding-right: 20px
+}
+
+.header-menu-phone {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 300;
+    display: block;
+    text-align: right
+}
+
+.header-menu-li, .header-menu-li-button {
+    display: inline-block
+}
+
+.header-menu-phone-bold span {
+    font-size: 25px
+}
+
+.header-menu-phone-bold {
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1)
+}
+
+.fixed .header-menu-phone-bold {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700
+}
+
+.header-menu-timetable-day {
+    font-size: 19px;
+    font-weight: 300;
+    color: #FFF
+}
+
+.header-menu-timetable-num {
+    font-size: 21px;
+    font-weight: 700;
+    color: #FFF
+}
+
+.header-h4, .header-phone {
+    color: #FFF;
+    display: block
+}
+
+.header-menu-li-button-a {
+    color: #FFF;
+    padding: 5px 10px;
+    box-sizing: content-box;
+    border: 2px solid #fff0;
+}
+
+.header-menu-li-button-a:hover {
+    color: #FFF; /*padding:5px 20px;*/
+    text-decoration: none
+}
+
+.logo-padding {
+    padding: 20px 0 0
+}
+
+.header-phone {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: right
+}
+
+.header-phone-bold {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 700
+}
+
+.header-h1 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #FFF;
+    padding: 160px 0 0;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1)
+}
+
+.header-h1-mini {
+    font-size: 40px
+}
+
+.header-h4 {
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #1571c4;
+    padding: 10px 20px;
+    margin: 0 auto 60px;
+    text-align: center
+}
+
+.header-li-button-1, .header-li-button-2 {
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer
+}
+
+#timer-form-mini, .header-li, .timer-li {
+    display: inline-block
+}
+
+.header-ul {
+    text-align: center;
+    padding: 0 0 50px;
+    margin: 0
+}
+
+.header-li-button-1 {
+    color: #121212;
+    background: #ffcd00;
+    border-bottom: 5px solid #d59100;
+    border-radius: 3px;
+    padding: 20px 90px
+}
+
+.header-li-button-1:hover {
+    background: #fdd720
+}
+
+.header-li-button-2 {
+    background: #5b5b5b;
+    border: 4px solid #FFF;
+    border-radius: 3px;
+    padding: 18px 30px 22px 34px;
+    color: #FFF
+}
+
+.header-li-button-2:hover {
+    background: #0067a8
+}
+
+#video-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 1px;
+    left: 0;
+    z-index: -99;
+    background: url(../img/fon_mobile_kyiv.jpg) no-repeat #94a233;
+    background-size: cover
+}
+
+#video-bg:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: .5;
+    background-color: #000;
+}
+
+.advantages, .advantages-bloknot {
+    position: relative
+}
+
+@supports (object-fit:cover) {
+    #video-bg > video {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover
+    }
+}
+
+.timer {
+    background-color: #FFF;
+    z-index: 40
+}
+
+.timer-img {
+    float: right
+}
+
+.timer-title {
+    text-align: right;
+    font-size: 42px;
+    font-weight: 800
+}
+
+.timer-text {
+    text-align: right;
+    font-size: 30px;
+    font-weight: 400
+}
+
+.timer-text-bold {
+    font-weight: 700
+}
+
+.timer-block-left {
+    float: left;
+    width: 500px;
+    text-align: right
+}
+
+.timer-block-right {
+    float: left;
+    width: 164px
+}
+
+#timer-form-mini {
+    padding: 20px;
+    border: 5px solid #0067a8;
+    margin-bottom: 50px;
+    float: right
+}
+
+.circle-text, .circle-title {
+    display: block;
+    text-align: center
+}
+
+#timer-li-margin {
+    margin-left: 20px
+}
+
+.circle, .circle:hover {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 10px
+}
+
+.advantages {
+    background-image: url(../img/image.png), url(../img/bg_02.jpg);
+    background-repeat: no-repeat;
+    background-position: 200px 200px, left bottom;
+    background-size: auto, cover;
+    overflow-x: hidden;
+    z-index: 50;
+    padding-top: 45px
+}
+
+#advantages-circle-img-5-white-bg, .circle:hover {
+    background: #FFF
+}
+
+.advantages-bloknot-img {
+    position: absolute;
+    right: -400px;
+    top: -450px
+}
+
+.advantages-title {
+    padding: 50px 0
+}
+
+.advantages-green {
+    color: #0067a8
+}
+
+.circle {
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+    border: 2px solid #d6d6d6
+}
+
+.circle:hover {
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+    border: 2px solid #d6d6d6;
+    -webkit-box-shadow: 10px 10px 22px -10px rgba(0, 0, 0, .6);
+    -moz-box-shadow: 10px 10px 22px -10px rgba(0, 0, 0, .6);
+    box-shadow: 10px 10px 22px -10px rgba(0, 0, 0, .6)
+}
+
+.apartment-for-sale-city, .housing-exchange-city {
+    right: 300px;
+    border: 2px solid #0067a8;
+    color: #0067a8
+}
+
+.advantages-circle-img-1, .advantages-circle-img-2, .advantages-circle-img-3, .advantages-circle-img-4 {
+    margin: 0 auto;
+    padding-top: 35px
+}
+
+.advantages-circle-img-5 {
+    margin: 0 auto;
+    padding-top: 50px
+}
+
+.circle-title {
+    font-size: 27px;
+    font-weight: 800
+}
+
+.circle-text {
+    font-size: 17px;
+    font-weight: 400
+}
+
+.advantages-li, .apartment-for-sale-li {
+    display: inline-block;
+    height: auto;
+    vertical-align: top;
+    line-height: normal;
+/ / zoom: 1;
+    overflow: hidden
+}
+
+.advantages-ul {
+    text-align: center;
+    padding: 30px 0;
+    margin: 0
+}
+
+.advantages-li {
+    width: 267px;
+    text-align: center;
+    padding: 0;
+    margin: 0 7px 20px 0;
+/ / display: inline
+}
+
+.apartment-for-sale {
+    background-image: url(../img/image2.png), url(../img/background_white1.jpg);
+    background-repeat: no-repeat;
+    background-position: right 700px, left bottom;
+    background-size: auto, cover;
+    padding-top: 45px
+}
+
+.apartment-for-sale-title {
+    position: relative;
+    font-size: 48px;
+    font-weight: 800;
+    padding: 50px 0 20px
+}
+
+.apartment-for-sale-city {
+    display: block;
+    position: absolute;
+    top: 70px;
+    padding: 10px;
+    font-weight: 700
+}
+
+.apartment-for-sale p {
+    font-size: 18px;
+    font-weight: 300
+}
+
+.apartment-for-sale-green {
+    font-size: 33px;
+    font-weight: 400;
+    color: #0067a8;
+    font-style: italic;
+    text-align: right;
+    padding-right: 45px
+}
+
+.apartment-for-sale-house {
+    position: relative
+}
+
+.apartment-for-sale-house-img {
+    position: absolute;
+    left: -150px;
+    top: -100px
+}
+
+.apartment-for-sale-ul {
+    list-style: none;
+    text-align: right;
+    padding: 0 0 50px;
+    margin: 0
+}
+
+.apartment-for-sale-li {
+    width: 320px;
+    text-align: center;
+    padding: 0;
+    margin: 0 7px 20px 0;
+/ / display: inline
+}
+
+.apartment-for-sale-li-left {
+    float: left;
+    width: 60px
+}
+
+.apartment-for-sale-li-right {
+    float: left;
+    width: 240px;
+    text-align: left
+}
+
+.apartment-for-sale-li-right-title {
+    font-size: 18px;
+    font-weight: 700
+}
+
+.apartment-for-sale-li-right-text {
+    font-size: 16px;
+    font-weight: 300
+}
+
+.costing {
+    background: url(../img/bg_03.jpg) left top no-repeat;
+    background-size: cover
+}
+
+.costing-title {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: left;
+    padding: 50px 0 20px 25px;
+    display: inline-block
+}
+
+.costing-title-bold, .housing-exchange-title {
+    font-size: 48px;
+    font-weight: 800
+}
+
+.costing-title-thin-2 {
+    text-align: right;
+    float: right
+}
+
+#costing-form {
+    margin-bottom: 90px;
+    float: right
+}
+
+.housing-exchange {
+    background-image: url(../img/image2.png), url(../img/background_white1.jpg);
+    background-repeat: no-repeat;
+    background-position: left 200px, left bottom;
+    background-size: auto, cover;
+    overflow-x: hidden;
+    padding-top: 45px
+}
+
+.housing-exchange-title {
+    position: relative;
+    padding: 50px 0 20px
+}
+
+.housing-exchange-city {
+    display: block;
+    position: absolute;
+    top: 70px;
+    padding: 10px;
+    font-weight: 700
+}
+
+.about-me-border-bottom, .ruler-border {
+    border-bottom: 2px solid #d6d6d6
+}
+
+.rotatable {
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    transform: rotate(-15deg)
+}
+
+.housing-exchange p {
+    font-size: 18px;
+    font-weight: 300
+}
+
+.housing-exchange-green {
+    font-size: 33px;
+    font-weight: 400;
+    color: #0067a8;
+    font-style: italic
+}
+
+.housing-exchange-house {
+    position: relative
+}
+
+.housing-exchange-house-img {
+    position: absolute;
+    left: 650px;
+    top: -100px
+}
+
+.housing-exchange-ul {
+    text-align: left;
+    padding: 30px 0;
+    margin: 0
+}
+
+.housing-exchange-li {
+    display: inline-block;
+    width: 320px;
+    height: auto;
+    vertical-align: top;
+    text-align: center;
+    line-height: normal;
+    padding: 0;
+    margin: 0 7px 20px 0;
+    overflow: hidden;
+/ / display: inline;
+/ / zoom: 1
+}
+
+.housing-exchange-li-left {
+    float: left;
+    width: 60px
+}
+
+.housing-exchange-li-right {
+    float: left;
+    width: 240px;
+    text-align: left
+}
+
+.housing-exchange-li-right-title {
+    font-size: 18px
+}
+
+.housing-exchange-li-right-text {
+    font-size: 16px;
+    font-weight: 300
+}
+
+.technologies {
+    background: url(../img/bg_04.jpg) left top no-repeat;
+    background-size: cover
+}
+
+.technologies-title {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: left;
+    padding: 70px 0 40px 25px
+}
+
+.technologies-title-bold {
+    font-size: 48px;
+    font-weight: 800
+}
+
+#technologies-form {
+    margin-bottom: 90px;
+    float: right
+}
+
+.sevensteps {
+    padding-bottom: 50px;
+    background-image: url(../img/i_ruler1.png), url(../img/i_compass.png);
+    background-repeat: no-repeat;
+    background-position: left 10%, bottom right;
+    background-color: #FFF;
+    padding-top: 45px
+}
+
+.sevensteps-title {
+    padding: 50px 0
+}
+
+.sevensteps-title-green {
+    color: #0067a8
+}
+
+.sevensteps-img {
+    margin: 0 auto;
+    padding-bottom: 20px
+}
+
+.sevensteps-text {
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    padding-bottom: 40px
+}
+
+#sevensteps-form-mini {
+    width: 326px;
+    float: right;
+    padding: 25px 0
+}
+
+#sevensteps-form-mini input[type=tel], #sevensteps-form-mini input[type=submit] {
+    float: right
+}
+
+.sevensteps-arrow {
+    padding-top: 50px
+}
+
+.protection {
+    background: url(../img/bg_05.jpg) left top no-repeat;
+    background-size: cover
+}
+
+.about-me, .footer, .form, .ruler, .sold-apartments {
+    background-color: #FFF
+}
+
+.protection-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFF;
+    padding: 50px 0 50px 80px
+}
+
+.protection-title-green {
+    color: #0067a8;
+    font-weight: 800
+}
+
+.protection-img-paper {
+    float: right;
+    padding-bottom: 40px
+}
+
+#protection-form {
+    margin-top: 60px
+}
+
+.sold-apartments {
+    padding-bottom: 80px
+}
+
+.sold-apartments-title {
+    padding: 70px 0 40px
+}
+
+.ruler {
+    position: relative;
+    height: 100px
+}
+
+.ruler-img {
+    position: absolute;
+    margin-top: -38px;
+    right: 0
+}
+
+.about-me {
+    position: relative;
+    -webkit-box-shadow: 2px 11px 11px -1px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 2px 11px 11px -1px rgba(0, 0, 0, .75);
+    box-shadow: 2px 11px 11px -1px rgba(0, 0, 0, .75);
+    background-image: url(../img/image.png);
+    background-repeat: no-repeat;
+    background-position: left, bottom right
+}
+
+.about-me-title {
+    padding: 50px 0 30px;
+    text-align: center
+}
+
+.about-me-img-man {
+    float: right;
+    width: 110%
+}
+
+.about-me-slogan {
+    font-size: 26px;
+    font-weight: 700;
+    font-style: italic
+}
+
+.about-me-text {
+    font-size: 16px;
+    font-weight: 300
+}
+
+.about-me-img-slogan-overflow {
+    overflow: hidden
+}
+
+.about-me-img-realtgk, .about-me-img-slogan {
+    float: right
+}
+
+.about-me-border-bottom {
+    display: block;
+    margin: 8px 0
+}
+
+.certificates-mini {
+    margin: 0 auto 125px;
+    -webkit-box-shadow: 10px 10px 22px -4px rgba(0, 0, 0, .6);
+    -moz-box-shadow: 10px 10px 22px -4px rgba(0, 0, 0, .6);
+    box-shadow: 10px 10px 22px -4px rgba(0, 0, 0, .6);
+    cursor: pointer
+}
+
+#certificate-slider {
+    display: none
+}
+
+.owl-img-2 {
+    width: 275px;
+    height: 375px
+}
+
+.map {
+    background-image: url(../img/image.png), url(../img/map.png);
+    height: 450px;
+    background-position: center
+}
+
+.logo-footer {
+    margin-top: 20px
+}
+
+.footer-timetable {
+    margin-top: 20px;
+    text-align: center
+}
+
+.footer-timetable-day {
+    font-size: 19px;
+    font-weight: 300
+}
+
+.footer-timetable-num {
+    font-size: 21px;
+    font-weight: 700
+}
+
+.footer-phone-thin {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.footer-phone-bold {
+    font-size: 33px;
+    font-weight: 700
+}
+
+.footer-form-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    display: block;
+    text-align: center
+}
+
+.footer-form-text {
+    line-height: 19px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 300;
+    padding-bottom: 20px;
+    display: block
+}
+
+.footer-address, .good-mail span {
+    text-align: center
+}
+
+.footer-phone {
+    margin-top: 8px;
+    display: inline-block
+}
+
+.footer-phone-icon img {
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-left: 5px
+}
+
+.footer-address-city {
+    font-size: 23px;
+    font-weight: 700
+}
+
+.footer-address-street {
+    font-size: 19px;
+    font-weight: 300
+}
+
+.footer-copyright-1 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 13px
+}
+
+.footer-copyright-2 {
+    display: block;
+    text-align: center;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#footer-form {
+    z-index: 6;
+    position: relative;
+    margin-right: 0;
+    margin-top: -350px
+}
+
+.form {
+    width: 326px;
+    border: 5px solid #0067a8;
+    padding: 25px
+}
+
+.form input[type=tel], .form input[type=text] {
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid #cececf;
+    border-radius: 2px;
+    height: 55px;
+    width: 266px;
+    padding-left: 15px;
+    margin: 10px auto;
+    font-size: 16px;
+    color: #666;
+    outline: 0;
+    background: #f9f9f9
+}
+
+.form input[type=submit], .form input[type=submit]:hover {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 17px;
+    color: #121212;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    height: 55px;
+    width: 266px;
+    margin: 10px auto
+}
+
+.form input[type=submit] {
+    background: #ffcd00;
+    border: none;
+    border-radius: 2px
+}
+
+.form input[type=submit]:hover {
+    background: #fdd720;
+    border: none;
+    border-radius: 2px
+}
+
+.form-mini input[type=tel], .form-mini input[type=text] {
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid #cececf;
+    border-radius: 2px;
+    height: 55px;
+    width: 266px;
+    padding-left: 15px;
+    margin: 10px auto;
+    font-size: 16px;
+    color: #666;
+    outline: 0;
+    background: #f9f9f9
+}
+
+.form-mini input[type=submit], .form-mini input[type=submit]:hover {
+    font-family: "Open Sans", sans-serif;
+    width: 266px;
+    height: 55px;
+    cursor: pointer;
+    font-size: 17px;
+    color: #121212;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+    font-weight: 800;
+    display: block;
+    text-decoration: none
+}
+
+.form-mini input[type=submit] {
+    background: #ffcd00;
+    border: none;
+    border-radius: 2px
+}
+
+.form-mini input[type=submit]:hover {
+    background: #fdd720;
+    border: none;
+    border-radius: 2px
+}
+
+.video-background {
+    background: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -99
+}
+
+.video-background iframe, .video-foreground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none
+}
+
+#vidtop-content {
+    top: 0
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .video-foreground {
+        height: 300%;
+        top: -100%
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .video-foreground {
+        width: 300%;
+        left: -100%
+    }
+}
+
+.good-mail-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 1px;
+    left: 0;
+    overflow: hidden;
+    z-index: -99;
+    background: url(../img/minsk.jpg) center top no-repeat;
+    background-size: cover;
+    width: auto
+}
+
+.good-mail span {
+    display: block
+}
+
+.good-mail {
+    width: 450px;
+    border: 10px solid #009BDD;
+    margin: 100px auto 0;
+    -webkit-box-shadow: 10px 10px 22px -4px rgba(0, 0, 0, .6);
+    -moz-box-shadow: 10px 10px 22px -4px rgba(0, 0, 0, .6);
+    box-shadow: 10px 10px 22px -4px rgba(0, 0, 0, .6);
+    background: #FFF
+}
+
+.good-mail-close {
+    font-size: 30px;
+    text-align: right !important;
+    margin: 0;
+    padding: 0 10px 0 0
+}
+
+.good-mail-close a {
+    color: #1b1e21;
+    border: 1px solid #009BDD;
+    padding: 0 7px 3px;
+    margin-top: 10px;
+    display: inline-block;
+    line-height: 1.1
+}
+
+.good-mail-close a:hover {
+    text-decoration: none
+}
+
+.good-mail-span1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2
+}
+
+.good-mail-span2 {
+    font-size: 24px;
+    line-height: 1.2;
+    padding-bottom: 20px
+}
+
+.good-mail-span3, .good-mail-span4 {
+    font-size: 19px;
+    font-weight: 700;
+    padding-bottom: 20px
+}
+
+.good-mail-span5 {
+    font-size: 14px;
+    padding-bottom: 20px;
+    font-style: italic
+}
+
+.header-logo {
+    max-height: 80px;
+}
+
+.header-phone {
+    margin-top: 6px;
+}
+
+.logo-footer {
+    max-height: 80px;
+    cursor: pointer;
+}
+
+.btn-wrap .blog {
+    width: 35%;
+    margin-top: 5px;
+}
+
+.btn-wrap .telegram {
+    width: 60%;
+    margin-left: 5px;
+
+}
+
+.blog .btn-primary {
+    background: #ffcd00;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+    color: #121212;
+    font-weight: 600;
+    margin-left: 15px;
+    padding: 7px 0;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 4px;
+}
+
+.blog .btn-primary:hover {
+    background: #fcdc40;
+
+}
+
+.telegram .btn-primary:hover {
+    background: #0484d5;
+}
+
+.telegram .btn-primary {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+    background-color: #0067a8;
+    color: #fff !important;
+    margin-left: 25px;
+    font-weight: 600;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 4px;
+
+}
+
+.telegram-img a {
+    display: block;
+}
+
+.telegram-img img {
+    height: 38px;
+    margin-left: 40px;
+    margin-top: 4px;
+}
+
+.header-logo-padding {
+    padding: 0;
+}
+
+.margin-top-0 {
+    margin-top: 0px;
+}
+
+.footer-phone {
+    width: 326px;
+    text-align: center;
+}
+
+.copyright-margin-top {
+    margin-top: 20px;
+}
+
+.toggle-mnu {
+    display: none;
+}
+
+.header-menu-ul-button .header-phone {
+    display: none;
+}
+
+.copy-wrap {
+    margin: 10px auto;
+}
+
+@media screen and (max-width: 992px) {
+    .header-menu-li-button-a {
+        display: block;
+    }
+
+    .btn-wrap {
+        width: 100%;
+    }
+
+    .btn-wrap a {
+        width: 300px;
+        margin: 10px auto !important;
+
+    }
+
+    .telegram-img {
+        display: none;
+    }
+
+    .copy-wrap {
+        margin: 0 auto;
+    }
+
+    .logo-padding {
+        position: relative;
+    }
+
+    .logo-padding:after, .logo-padding:before {
+        position: absolute;
+        content: '';
+        background: #f9f9f9;
+        height: 100%;
+        width: 100%;
+        top: 0;
+    }
+
+    .logo-padding:after {
+        left: -100%;
+    }
+
+    .logo-padding:before {
+        right: -100%;
+    }
+
+    .toggle-mnu {
+        display: block;
+        width: 25px;
+        height: 25px;
+        background: url(../img/toggle-mnu.png) no-repeat 50%;
+        background-size: cover;
+        margin-left: auto;
+        position: absolute;
+        margin-top: -12.5px;
+        top: 50%;
+        right: 8%;
+    }
+
+    .header-phone {
+        display: none !important;
+    }
+
+
+    .header-logo-padding {
+        display: none !important;
+    }
+
+    .header-menu-ul {
+        display: none !important;
+    }
+
+    .header-menu-li-button {
+        display: block;
+        text-align: left;
+        border-top: 1px dotted rgba(255, 255, 255, 0.2);
+        /*padding: 15px 10px;*/
+    }
+
+    .header-menu-li-button:first-child {
+        margin-top: 0;
+    }
+
+    body > div, header, footer {
+        overflow: hidden;
+    }
+}
+
+.fb_iframe_widget {
+    min-height: 300px;
+    position: relative;
+    z-index: 2;
+}
+
+.fb_iframe_widget_fluid_desktop iframe {
+    background-color: #fff
+}
+
+#reviews .loader {
+    position: absolute;
+    left: 43%;
+    width: 200px;
+    z-index: 0
+}
+
+@media screen and (max-width: 992px) {
+    #reviews .loader {
+        left: 35%
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    #reviews .loader {
+        left: 22%
+    }
+}
+
+
+@keyframes shift {
+    to {
+        transform: translateX(-50px);
+    }
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-center .header-h4 {
+    display: inline-block;
+    padding: 0 25px;
+}

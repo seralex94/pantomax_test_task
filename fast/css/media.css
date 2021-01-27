@@ -1,0 +1,614 @@
+@media screen and (max-width:1200px) {
+	header{
+		background-size: cover;
+	}
+	.timer-block-left {
+		float: none;
+		width: 100%;
+		text-align: right;
+		margin-bottom: 50px
+	}
+	.timer-block-right {
+		display: none;
+		float: none;
+		width: 164px
+	}
+	.header-menu-li-button-a {
+		color: #FFF;
+		padding: 7px 10px
+	}
+	.header-menu-li-button-a:hover {
+		color: #FFF;
+		/*padding: 5px 8px;*/
+		/*border: 2px solid #0067a8;*/
+		text-decoration: none
+	}
+	.costing-title {
+		font-size: 36px;
+		font-weight: 400;
+		text-align: left;
+		padding: 50px 0 20px;
+		display: inline-block
+	}
+	.form {
+		width: 300px;
+		border: 5px solid #0067a8;
+		background-color: #FFF;
+		padding: 25px 15px 15px
+	}
+	.form input[type=text], .form input[type=tel] {
+		font-family: "Open Sans", sans-serif;
+		border: 1px solid #cececf;
+		border-radius: 2px;
+		height: 55px;
+		width: 260px;
+		padding-left: 15px;
+		margin: 10px auto;
+		font-size: 16px;
+		color: #666;
+		outline: 0;
+		background: #f9f9f9
+	}
+	.form input[type=submit], .form input[type=submit]:hover {
+		font-family: "Open Sans", sans-serif;
+		width: 260px;
+		height: 55px;
+		margin: 10px auto;
+		display: block;
+		cursor: pointer;
+		text-decoration: none;
+		font-size: 17px;
+		color: #121212;
+		box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+		font-weight: 800
+	}
+	.form input[type=submit] {
+		background: #ffcd00;
+		border: none;
+		border-radius: 2px
+	}
+	.form input[type=submit]:hover {
+		background: #fdd720;
+		border: none;
+		border-radius: 2px
+	}
+	.technologies-title {
+		font-size: 36px;
+		font-weight: 400;
+		text-align: left;
+		padding: 70px 0 40px
+	}
+	.protection-title {
+		font-size: 48px;
+		font-weight: 700;
+		color: #FFF;
+		padding: 50px 0
+	}
+}
+@media screen and (max-width:992px) {
+	.header-phone, .header-ul, .timer-text, .timer-title {
+		text-align: center
+	}
+	#video-bg {
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 1px;
+		left: 0;
+		overflow: hidden;
+		z-index: -99;
+		background: url(../img/fon_mobile_kyiv.jpg) center center no-repeat #94a233;
+		background-size: cover
+	}
+	#video-bg>video {
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto
+	}
+	@supports (object-fit:cover) {
+		#video-bg>video {
+			display: none;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover
+		}
+	}
+	.header-phone {
+		color: #FFF;
+		font-size: 30px;
+		font-weight: 300;
+		display: block
+	}
+	.header-logo {
+		margin: 0
+	}
+	.header-h1 {
+		font-size: 64px;
+		font-weight: 800;
+		color: #FFF;
+		padding: 80px 0 0;
+		text-shadow: 3px 3px 8px rgba(0, 0, 0, .5)
+	}
+	.header-ul {
+		list-style: none;
+		padding: 0;
+		margin: 0
+	}
+	.header-menu.fixed {
+		display: none;
+		width: 100%;
+		position: fixed;
+		top: 0;
+		background: rgba(0, 0, 0, .75)
+	}
+	.timer-img {
+		float: none;
+		margin: 0 auto
+	}
+	.timer-title {
+		font-size: 42px;
+		font-weight: 800
+	}
+	.timer-text {
+		font-size: 30px;
+		font-weight: 400
+	}
+	.apartment-for-sale-green, .housing-exchange-green {
+		font-size: 33px;
+		font-weight: 400;
+		color: #0067a8;
+		font-style: italic;
+		text-align: center
+	}
+	.timer-block-left {
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 50px
+	}
+	#timer-form-mini {
+		padding: 20px;
+		border: 5px solid #0067a8;
+		display: inline-block;
+		margin: 0 auto 50px 40px;
+		float: none;
+		text-align: center
+	}
+	.advantages-bloknot-img {
+		position: absolute;
+		right: -400px;
+		top: -550px
+	}
+	#footer-form, .advantages, .apartment-for-sale-house, .housing-exchange-house-img {
+		position: relative
+	}
+	.advantages {
+		background-image: url(../img/image2.png), url(../img/bg_02.jpg);
+		background-repeat: no-repeat;
+		background-position: left 200px, left bottom;
+		background-size: auto, cover;
+		overflow-x: hidden;
+		z-index: 50
+	}
+	.apartment-for-sale-house-img {
+		position: relative;
+		left: 0;
+		top: 0;
+		display: block;
+		margin: 0 auto;
+		width: 100%
+	}
+	#certificate-none, .arrow-green {
+		display: none
+	}
+	.apartment-for-sale-green {
+		padding-right: 0
+	}
+	#costing-form {
+		margin-bottom: 50px;
+		float: none
+	}
+	.housing-exchange-house-img {
+		left: 0;
+		top: 0;
+		margin: 0 auto;
+		width: 100%
+	}
+	#technologies-form {
+		margin-bottom: 40px;
+		float: none
+	}
+	#footer-form, .footer-phone, .logo-footer {
+		margin: 0 auto
+	}
+	#sevensteps-form-mini input[type=tel], #sevensteps-form-mini input[type=submit] {
+		float: right;
+		width: 210px
+	}
+	.protection-img-paper {
+		float: right;
+		padding-bottom: 40px;
+		width: 100%
+	}
+	.protection-title {
+		font-size: 48px;
+		font-weight: 700;
+		color: #FFF;
+		padding: 50px 0 20px
+	}
+	.protection {
+		background: url(../img/bg_05.jpg) left top no-repeat;
+		background-size: cover;
+		padding-bottom: 30px
+	}
+	.about-me-img-man {
+		float: none;
+		margin: 0 auto
+	}
+	#certificate-slider {
+		display: inline
+	}
+	#footer-form {
+		z-index: 6
+	}
+	.footer-copyright-1 {
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 16px;
+		text-align: center;
+		display: block
+	}
+	.footer-phone {
+		text-align: center;
+		display: block
+	}
+}
+@media screen and (max-width:768px) {
+	header{
+		background-position-y: 15px;
+	}
+	.header-h1, .header-h4 {
+		color: #FFF;
+		font-weight: 800
+	}
+	.header-h1 {
+		font-size: 48px;
+		padding: 80px 0 0;
+		text-shadow: 3px 3px 8px rgba(0, 0, 0, .5)
+	}
+	.header-h1-mini {
+		font-size: 40px
+	}
+	.header-h4 {
+		font-size: 30px;
+		background: #0067a8;
+		padding: 10px 20px;
+		display: block;
+		margin: 0 auto 50px;
+		text-align: center
+	}
+	.header-li {
+		display: inline-block
+	}
+	.header-li-button-1 {
+		color: #121212;
+		background: #ffcd00;
+		border-bottom: 5px solid #d59100;
+		border-radius: 3px;
+		padding: 20px 90px;
+		font-size: 16px;
+		font-weight: 800;
+		cursor: pointer;
+		margin-bottom: 20px
+	}
+	.header-logo {
+		margin: 5px 0;
+		width: 200px;
+		height: auto
+	}
+	.apartment-for-sale-city, .housing-exchange-city {
+		display: block;
+		right: 50px;
+		top: 70px;
+		border: 2px solid #0067a8;
+		color: #0067a8
+	}
+	.header-li-button-1:hover {
+		background: #fdd720
+	}
+	.timer-text {
+		text-align: center;
+		font-size: 24px;
+		font-weight: 400
+	}
+	.apartment-for-sale-ul {
+		list-style: none;
+		text-align: center;
+		padding: 30px 0;
+		margin: 0
+	}
+	.apartment-for-sale-title {
+		position: relative;
+		font-size: 36px;
+		font-weight: 800;
+		padding: 50px 0 5px
+	}
+	.apartment-for-sale-city {
+		position: absolute;
+		padding: 10px;
+		font-weight: 700
+	}
+	.apartment-for-sale-green {
+		font-size: 28px;
+		font-weight: 400;
+		color: #0067a8;
+		font-style: italic;
+		text-align: center;
+		padding-right: 0
+	}
+	.housing-exchange-title {
+		position: relative;
+		font-size: 36px;
+		font-weight: 800;
+		padding: 50px 0 30px
+	}
+	.housing-exchange-city {
+		position: absolute;
+		padding: 10px;
+		font-weight: 700
+	}
+	.housing-exchange-green {
+		font-size: 28px;
+		font-weight: 400;
+		color: #0067a8;
+		font-style: italic
+	}
+	.housing-exchange-ul {
+		list-style: none;
+		text-align: center;
+		padding: 30px 0;
+		margin: 0
+	}
+	.technologies-title {
+		font-size: 30px;
+		font-weight: 400;
+		text-align: left;
+		padding: 70px 0 40px
+	}
+	.technologies-title-bold {
+		font-size: 36px;
+		font-weight: 800
+	}
+	.sevensteps-title {
+		padding: 50px 0;
+		font-size: 36px
+	}
+	#sevensteps-form-mini, .sevensteps-arrow {
+		display: none
+	}
+	#timer-form-mini, .timer-ul {
+		display: block;
+		text-align: center
+	}
+	.protection-img-paper {
+		float: none;
+		padding-bottom: 40px;
+		width: 300px;
+		height: auto;
+		margin: 0 auto
+	}
+	#protection-form {
+		margin: 30px auto 0
+	}
+	.protection-title {
+		font-size: 36px
+	}
+	.sold-apartments-title {
+		padding: 70px 0 60px;
+		font-size: 36px
+	}
+	.advantages-bloknot-img {
+		position: relative;
+		right: 0;
+		top: 0;
+		margin: 0 auto
+	}
+	.timer-ul {
+		width: 300px;
+		margin: 0 auto
+	}
+	#timer-li-margin {
+		margin-left: 0
+	}
+	#timer-form-mini {
+		padding: 20px;
+		border: 5px solid #0067a8;
+		margin: 0 auto 50px;
+		float: none
+	}
+}
+@media screen and (max-width:576px) {
+	#timer-form-mini, .header-ul, .timer-text, .timer-title {
+		text-align: center
+	}
+	.good-mail {
+		width: 320px;
+		border: 10px solid #009BDD;
+		margin: 30px auto 0;
+		-webkit-box-shadow: 10px 10px 22px -4px rgba(0, 0, 0, .6);
+		-moz-box-shadow: 10px 10px 22px -4px rgba(0, 0, 0, .6);
+		box-shadow: 10px 10px 22px -4px rgba(0, 0, 0, .6);
+		background: #FFF
+	}
+	#costing-form, #timer-form-mini {
+		margin: 0 auto 50px;
+		float: none
+	}
+	#timer-form-mini {
+		padding: 0;
+		border: none;
+		display: block
+	}
+	.timer-bg-rot, .timer-block {
+		display: none
+	}
+	#technologies-form {
+		margin: 0 auto 40px;
+		float: none
+	}
+	.owl-img-2 {
+		width: 275px;
+		height: 375px;
+		margin: 0 auto
+	}
+	.timer-title {
+		font-size: 30px;
+		font-weight: 800
+	}
+	.timer-text {
+		font-size: 19px;
+		font-weight: 400
+	}
+	.header-h1 {
+		margin-top: 40px;
+		font-size: 36px;
+		padding: 40px 0 0
+	}
+	.header-h1-mini {
+		font-size: 24px
+	}
+	.header-h4 {
+		color: #FFF;
+		font-size: 19px;
+		padding: 10px 20px;
+		margin: 0 auto 20px
+	}
+	.header-ul {
+		list-style: none;
+		padding: 0 0 40px;
+		margin: 0
+	}
+	.about-me-img-man, .advantages-bloknot-img, .logo-footer {
+		margin: 0 auto;
+		width: 300px;
+		height: auto
+	}
+	.advantages-title {
+		padding: 50px 0;
+		font-size: 36px
+	}
+	.advantages-bloknot-img {
+		position: relative;
+		right: 0;
+		top: 0
+	}
+	.about-me-img-man {
+		float: none
+	}
+	.technologies-title-bold {
+		font-size: 30px;
+		font-weight: 800
+	}
+	.costing-title {
+		font-size: 30px
+	}
+	.costing-title-bold {
+		font-size: 30px;
+		font-weight: 800
+	}
+	.costing-title-thin-2 {
+		text-align: left;
+		float: none
+	}
+	.about-me-title {
+		padding: 0 0 20px;
+		text-align: center;
+		font-size: 30px
+	}
+	.about-me-text {
+		font-size: 16px;
+		font-weight: 300
+	}
+}
+@media screen and (max-width: 992px) {
+	.mob-none {
+		display: none
+	}
+	.logo-padding {
+		padding: 0;
+		width: 100%;
+		background: #f9f9f9;
+		position: fixed;
+		z-index: 9999;
+		top: 0;
+	}
+
+	.header {
+		margin-top: 80px;
+	}
+
+	.header-menu {
+		display: none;
+		position: fixed !important;
+		top: 60px;
+		left: 0;
+		width: 100%;
+		z-index: 200;
+		background: rgba(0, 0, 0, .75);
+		height: auto;
+		padding-bottom: 20px;
+	}
+	.header-menu.fixed {
+		top: 60px;
+	}
+	section, body>div {
+		overflow: hidden;
+	}
+	.header-menu-ul-button .header-phone {
+		display: block !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.header {
+		margin-top: 51px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.header {
+		margin-top: 36px;
+		background-color: #f9f9f9;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.header-menu {
+		top: 55px;
+	}
+	.header-menu.fixed {
+		top: 55px;
+	}
+	body>div, header, footer {
+		overflow: hidden;
+	}
+}
+@media screen and (max-width: 400px) {
+	header {
+    background-position-y: 30px}
+	.header-h1{
+	margin-top: 80px;
+	font-size: 25px;	
+	}
+	.header-h4{
+		font-size: 14px;
+		padding: 5px 35px !important;
+	}
+}
